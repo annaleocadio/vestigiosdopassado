@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --prata: #dadbda;
+    --azul: #1A2A5F;
+    --cinza: #41433C;
+    --vermelho: #A24551;
+    --verde: #859E7A;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+body{
+    background-color: var(--cinza);
+    padding-top: 100px;
+}
+.titulo{
+    text-align: center;
+    color: var(--preto);
+}
+.linkdiana{
+    color: var(--branco);
+}
+.chamada{
+    text-align: center;
+    color: var(--branco);
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu{
+    color:var(--branco);
+}
+.container{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+header{
+    background-color:var(--branco);
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo, .redes{
+    width: 25%; 
+    cursor: pointer;
+}
+.logo img{
+    width: 60px;
+}
+.menu{
+    width: 50%;
+}
+.menu nav a{
+    color: var(--preto);
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+    position: relative;
+}
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 3px;
+    background-color:var(--preto);
+    position: absolute;
+    top: 18px;
+    left: 0; 
+    transition: width 0.5s;
+}
+.menu nav a:hover::after{
+    width: 55px;
+}
+.redes button{
+    width: 40px;
+    height: 40px;
+    background-image:linear-gradient(45deg, --azul, --preto) ;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.redes button i{
+    font-size: 20px;
+    color:var(--branco);
+    cursor: pointer;
+}
+.onzedesetembro{
+    color: var(--branco);
+}
+.listadeacontecimentos{
+    color: var(--branco);
+    font-size: medium;
+    text-decoration: none;
+}
+.imggaleria{
+    width: 100%;
+  }
+.imagens{
+    text-align: center;
+    width: 450px;
+    height: auto;
+    float: left;
+    margin-right: 26px;
+}
+.fotodiana{
+    width: 300px;
+    height: auto;
+    position:relative;
+    display: flex;
+}
+.vidadiana{
+    color: var(--branco);
+    text-indent: 30px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+.tituloevideo{
+    text-align: center;
+}
+.quemfoidiana{
+    text-align: center;
+    color: var(--branco);
+}
+.ataquestitulo{
+    color: var(--branco);
+    text-align: center;
+}
+.texto{
+    color: var(--branco);
+    text-indent: 30px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+footer{
+    background-color: #859E7A;
+    color: var(--branco);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    margin: 2px auto 2px;
+    position: fixed;
+}
+main{
+    height: 200px;
+    margin: 20px;
+    padding: 5em 2em 2em;
+    background-color: var(--cinza);
+    border-radius: 3px;
+    box-shadow: 0 0 10px;
+}
+.gripeespanhola{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    position:relative;
+    display: flex;
+}
